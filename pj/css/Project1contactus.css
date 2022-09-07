@@ -1,0 +1,204 @@
+.textgp{
+
+    margin: 0 ;
+    background-color: navy;
+    padding: 10px;
+    position: relative;
+    
+}
+
+
+.cpname span{
+   color: #fff;
+}
+
+
+.phno span{
+    color: #fff;
+     margin-left: 10px;
+}
+
+.icon i{
+    transform: translate(630px);
+    margin-left: 30px;
+    color: #fff;
+}
+
+ 
+
+
+
+
+
+
+
+
+
+
+/* navbar */
+
+.nav-item{
+    font-size: medium;
+}
+.menu li a{
+    color:black;
+    transition: all 1s;
+}
+.menu li a:hover{
+    color:#fff;
+    background-color: navy;
+}
+  /* bannner  */
+
+
+
+    
+#bannercontact{
+    background-image:url(../img/pexels-johannes-plenio-1103970.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 220px;
+
+}
+
+
+
+
+.thovercontact{
+     color: black;
+     text-decoration: none;
+
+}
+.thovercontact:hover{
+   color:cyan;
+}
+
+
+.mapcontainer{
+    padding: 120px 0px 120px 0px ;
+    background-color: whitesmoke;
+}
+
+.contactaddress h3{
+
+   margin-left: 80px;
+   margin-bottom: 30px;
+   margin-top: 30px;
+    
+
+}
+
+.contactaddress p{
+
+    margin-left: 80px;
+    
+}
+
+/* 
+form */
+
+.contactform{
+    padding: 80px 0px 80px 0px ;
+    position: relative;
+    
+}
+.contactform h2{
+    margin-bottom: 60px;
+}
+.contactform input{
+    margin-bottom: 30px;
+}
+#textarea{
+    padding: 100px;
+    text-align: start;
+    
+}
+.contactform button{
+    padding: 10px 40px;
+    margin-top: 20px;
+    background-color: blue;
+    color: #fff;
+    transition: all 1s;
+   /* transform: translateX(1180px); */
+   transform: translateX(1180px);
+}
+.contactform button:hover{
+    padding: 20px 80px;
+    background-color: #272727;
+    color: #fff;
+
+}
+
+
+@media(max-width: 800px) {
+    .contactform button{
+        transform: translateX(10px);
+  }
+
+} 
+
+
+
+
+
+
+
+
+
+
+ /* footer */
+.footer{
+    padding: 100px;
+  }
+  .footer h3{
+      
+      margin-bottom: 60px;
+      margin-left: 40px;
+  }
+  .footer p{
+      
+    
+      margin-left: 40px;
+  }
+  .footerlink h3{
+      margin-left: 180px;
+  }
+  .footerlink ul li{
+      margin-left: 165px;
+     
+     
+  }
+  
+  
+  .footer li{
+      color: navy;
+      list-style: square;
+      padding: 3px;
+     list-style-position: inside;
+     font-size: 15px;
+  }
+  .footer li a{
+      color: #fff;
+      text-decoration: none;
+       margin: 0;
+  }
+  .footer li a:hover{
+      color:aquamarine;
+      
+  }
+  
+  .date{
+      padding: 8px;
+      background-color: navy;
+  }
+  .date p{
+      margin-top: 7px;
+      color: #fff;
+  }
+
+
+
+
+
+
+  
